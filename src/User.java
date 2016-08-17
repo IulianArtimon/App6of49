@@ -3,7 +3,7 @@
  */
 import java.util.Scanner;
 public class User {
-
+                                                                   // user stored data
     private  String numeUser;
     private String numereUser;
 
@@ -14,7 +14,7 @@ public class User {
     public String getNumereUser() {
         return numereUser;
     }
-    //  user input
+                                                                  //  user input
     public void userInput (){
         Scanner input = new Scanner(System.in);
         System.out.println("Introdu numele!");
